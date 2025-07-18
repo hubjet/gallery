@@ -1,5 +1,7 @@
 {{ define "main" }}
+  {{ if not .Params.hideTitle }}
   {{ partial "title.html" . }}
+  {{ end }}
   {{ partial "gallery.html" . }}
   {{ partial "related.html" . }}
   {{ with .Content }}
