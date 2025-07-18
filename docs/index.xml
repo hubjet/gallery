@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Photo Gallery</title>
+    <link>https://hubjet.github.io/gallery/</link>
+    <description>Recent content on My Photo Gallery</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://hubjet.github.io/gallery/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>People</title>
+      <link>https://hubjet.github.io/gallery/people/</link>
+      <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hubjet.github.io/gallery/people/</guid>
+        <media:content url="https://hubjet.github.io/gallery/people/IMG_4944_hu_6a68b81731f1bbf0.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;https://hubjet.github.io/gallery/people/IMG_4944_hu_6a68b81731f1bbf0.jpg&quot; /&gt;
+          &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
+        </description></item>
+    <item>
+      <title>Nature</title>
+      <link>https://hubjet.github.io/gallery/nature/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hubjet.github.io/gallery/nature/</guid>
+        <media:content url="https://hubjet.github.io/gallery/nature/IMG_4297_hu_aa06b0b4ec1ae3ee.JPG" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;https://hubjet.github.io/gallery/nature/IMG_4297_hu_aa06b0b4ec1ae3ee.JPG&quot; /&gt;
+          &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
+        </description></item>
+  </channel>
+</rss>
