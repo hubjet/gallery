@@ -9,4 +9,6 @@ resources:
   - src: IMG_E1838.JPG
   - src: IMG_5420.JPG
   - src: IMG_5429.JPG
+  - src: IMG_5411.JPG
+  - src: IMG_5420.JPG
 ---
