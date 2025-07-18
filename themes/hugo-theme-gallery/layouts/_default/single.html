@@ -1,9 +1,13 @@
 {{ define "main" }}
+  <div style="color:red;">THIS IS LOCAL SINGLE.HTML</div>
+  
   {{ if not .Params.hideTitle }}
-  {{ partial "title.html" . }}
+    {{ partial "title.html" . }}
   {{ end }}
+  
   {{ partial "gallery.html" . }}
   {{ partial "related.html" . }}
+  
   {{ with .Content }}
     <section class="prose">
       {{ . }}
