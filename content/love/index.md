@@ -1,5 +1,5 @@
 ---
-title: love
+title: Love
 resources:
   - src: photolove.jpg
     params:
