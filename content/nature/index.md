@@ -7,4 +7,5 @@ resources:
   - src: IMG_0519.JPG
   - src: IMG_E3979.JPG
   - src: IMG_E1838.JPG
+  - src: IMG_5420.JPG
 ---
