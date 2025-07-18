@@ -2,19 +2,35 @@
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My Photo Gallery</title>
-    <link>http://localhost:54286/</link>
+    <link>http://localhost:57882/gallery/</link>
     <description>Recent content on My Photo Gallery</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://localhost:54286/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:57882/gallery/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Nature</title>
-      <link>http://localhost:54286/nature/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54286/nature/</guid>
-        <media:content url="http://localhost:54286/nature/tree_hu_6705a0bb6eadfeab.jpg" type="image/jpeg"/>
+      <title>People</title>
+      <link>http://localhost:57882/gallery/people/</link>
+      <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:57882/gallery/people/</guid>
+        <media:content url="http://localhost:57882/gallery/people/IMG_4944_hu_6a68b81731f1bbf0.jpg" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;http://localhost:54286/nature/tree_hu_6705a0bb6eadfeab.jpg&quot; /&gt;
+          &lt;img src=&quot;http://localhost:57882/gallery/people/IMG_4944_hu_6a68b81731f1bbf0.jpg&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
+    <item>
+      <title>Nature</title>
+      <link>http://localhost:57882/gallery/nature/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:57882/gallery/nature/</guid>
+        <media:content url="http://localhost:57882/gallery/nature/IMG_4297_hu_aa06b0b4ec1ae3ee.JPG" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:57882/gallery/nature/IMG_4297_hu_aa06b0b4ec1ae3ee.JPG&quot; /&gt;
+          &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
+        </description></item>
+    <item>
+      <title>Test Page</title>
+      <link>http://localhost:57882/gallery/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:57882/gallery/test/</guid><description>&lt;no value&gt;</description></item>
   </channel>
 </rss>

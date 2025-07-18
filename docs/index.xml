@@ -27,5 +27,10 @@
           &lt;img src=&quot;https://hubjet.github.io/gallery/nature/IMG_4297_hu_aa06b0b4ec1ae3ee.JPG&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
+    <item>
+      <title>Test Page</title>
+      <link>https://hubjet.github.io/gallery/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hubjet.github.io/gallery/test/</guid><description>&lt;no value&gt;</description></item>
   </channel>
 </rss>
