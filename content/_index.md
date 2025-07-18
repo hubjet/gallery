@@ -1,4 +1,6 @@
 ---
-title: Welcome to My Gallery
-description: Explore featured albums and categories.
+title: My Photo Gallery
+hideTitle: true
 ---
+
+Welcome to my photo gallery.
