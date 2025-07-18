@@ -1,7 +1,7 @@
-baseURL = "https://hubjet.github.io/photo-gallery/"
+baseURL = "https://hubjet.github.io/gallery/"
 languageCode = "en-us"
-title = ""
-theme = "themes/hugo-theme-gallery"
+title = "My Photo Gallery"
+theme = "hugo-theme-gallery"
 
 [params]
   defaultTheme = "dark"
