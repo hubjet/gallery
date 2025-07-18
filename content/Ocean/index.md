@@ -1,8 +1,8 @@
 ---
 title: Ocean
 resources:
-  - src: IMG_0615.jpg
+  - src: IMG_8582.jpg
     params:
       cover: true
-  - src: IMG_8582.jpg
+  - src: IMG_0615.jpg
 ---
