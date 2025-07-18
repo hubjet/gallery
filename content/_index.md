@@ -1,4 +1,4 @@
 ---
-title: "My Photo Gallery"
+title:"My Photo Gallery"
 hideTitle: true
 ---
