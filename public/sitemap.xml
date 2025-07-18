@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:57882/gallery/</loc>
+    <loc>http://localhost:50574/gallery/</loc>
     <lastmod>2025-07-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57882/gallery/people/</loc>
+    <loc>http://localhost:50574/gallery/people/</loc>
     <lastmod>2025-07-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57882/gallery/categories/</loc>
+    <loc>http://localhost:50574/gallery/categories/</loc>
   </url><url>
-    <loc>http://localhost:57882/gallery/nature/</loc>
+    <loc>http://localhost:50574/gallery/nature/</loc>
   </url><url>
-    <loc>http://localhost:57882/gallery/tags/</loc>
+    <loc>http://localhost:50574/gallery/tags/</loc>
   </url><url>
-    <loc>http://localhost:57882/gallery/test/</loc>
+    <loc>http://localhost:50574/gallery/test/</loc>
   </url>
 </urlset>

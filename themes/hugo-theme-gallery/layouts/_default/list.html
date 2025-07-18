@@ -1,8 +1,10 @@
 {{ define "main" }}
-  {{ partial "title.html" . }}
-  <section class="galleries">
-    {{ range where .Pages "Params.private" "ne" true }}
-      {{ partial "album-card.html" . }}
-    {{ end }}
-  </section>
+  {{ if not .IsHome }}
+    {{ partial "title.html" . }}
+  {{ end }}
+
+  {{ range where .Pages "Params.private" "ne" true }}
+    {{ partial "album-card.html" . }}
+  {{ end }}
 {{ end }}
+

@@ -1,7 +1,11 @@
 {{ define "main" }}
-  {{ partial "title.html" . }}
+  {{ if not .IsHome }}  <!-- hello -->
+    {{ partial "title.html" . }}  <!helloo -->
+  {{ end }}
+
   {{ partial "categories.html" }}
   {{ partial "featured.html" . }}
+
   <section class="galleries">
     {{ range where .Pages "Params.private" "ne" true }}
       {{ partial "album-card.html" . }}
