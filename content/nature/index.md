@@ -6,4 +6,5 @@ resources:
       cover: true
   - src: IMG_0519.JPG
   - src: IMG_E3979.JPG
+  - src: IMG_E1838.JPG
 ---
