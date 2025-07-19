@@ -1,36 +1,45 @@
-{{ with .Params.remote_photos }}
+{{ define "main" }}
+
+  {{ if not .Params.hideTitle }}
+    {{ partial "title.html" . }}
+  {{ end }}
+
+  {{ partial "gallery.html" . }}
+  {{ partial "related.html" . }}
+
+  {{ with .Content }}
+    <section class="prose">
+      {{ . }}
+    </section>
+  {{ end }}
+
   <style>
-    .remote-gallery {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
+    .remote-gallery-cols {
+      column-count: 2;
+      column-gap: 0.5rem;
     }
-    .remote-gallery a {
-      flex: 1 1 calc(50% - 0.5rem);
-      display: block;
-    }
-    .remote-gallery img {
+    .remote-gallery-cols img {
       width: 100%;
-      height: auto;
-      display: block;
+      margin-bottom: 0.5rem;
       border-radius: 4px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-      cursor: default;
+      cursor: zoom-in;
+      /* 已移除 transform + transition */
     }
   </style>
 
-  <div class="remote-gallery pswp-gallery" id="remote-gallery">
-    {{ range $i, $url := . }}
-      <a 
-        href="{{ $url }}"
-        data-pswp-src="{{ $url }}"
-        data-pswp-gallery="remote-gallery"
-        data-pswp-width="1600"
-        data-pswp-height="1066"
-        target="_blank"
-      >
-        <img src="{{ $url }}" alt="Remote Photo {{ $i }}" />
-      </a>
-    {{ end }}
-  </div>
+  {{ with .Params.remote_photos }}
+    <div class="remote-gallery-cols">
+      {{ range . }}
+        <a 
+          href="{{ . }}" 
+          data-pswp-src="{{ . }}" 
+          data-pswp-gallery="remote"
+        >
+          <img src="{{ . }}" alt="Remote photo" />
+        </a>
+      {{ end }}
+    </div>
+  {{ end }}
+
 {{ end }}
