@@ -40,10 +40,11 @@
   {{ with .Params.remote_photos }}
     <div class="remote-gallery-cols">
       {{ range . }}
-        {{ $thumb := . | replace ".jpeg" "_thumb.jpeg" | replace ".jpg" "_thumb.jpg" | replace ".JPG" "_thumb.JPG" }}
+        {{ $full := . }}
+        {{ $thumb := $full | replace ".jpeg" "_thumb.jpeg" | replace ".jpg" "_thumb.jpg" | replace ".JPG" "_thumb.jpg" | replace ".JPEG" "_thumb.jpeg" }}
         <a 
-          href="{{ . }}" 
-          data-pswp-src="{{ . }}" 
+          href="{{ $full }}" 
+          data-pswp-src="{{ $full }}" 
           data-pswp-gallery="remote"
           data-pswp-width="1600"
           data-pswp-height="1066"
