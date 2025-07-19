@@ -5,4 +5,3 @@ theme = "hugo-theme-gallery"
 
 [params]
   defaultTheme = "dark"
-  lightbox = true
