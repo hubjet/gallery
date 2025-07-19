@@ -4,6 +4,36 @@
     {{ partial "title.html" . }}
   {{ end }}
 
+  {{ with .Params.remote_photos }}
+    <style>
+      .remote-gallery-cols {
+        column-count: 2;
+        column-gap: 0.5rem;
+      }
+      .remote-gallery-cols img {
+        width: 100%;
+        margin-bottom: 0.5rem;
+        border-radius: 4px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        cursor: zoom-in;
+      }
+    </style>
+
+    <div class="remote-gallery-cols">
+      {{ range $i, $url := . }}
+        <a 
+          href="{{ $url }}"
+          data-pswp-src="{{ $url }}"
+          data-pswp-gallery="remote"
+          data-pswp-width="1600"
+          data-pswp-height="1066"
+        >
+          <img src="{{ $url }}" alt="Remote Photo {{ $i }}" />
+        </a>
+      {{ end }}
+    </div>
+  {{ end }}
+
   {{ partial "gallery.html" . }}
   {{ partial "related.html" . }}
 
@@ -11,35 +41,6 @@
     <section class="prose">
       {{ . }}
     </section>
-  {{ end }}
-
-  <style>
-    .remote-gallery-cols {
-      column-count: 2;
-      column-gap: 0.5rem;
-    }
-    .remote-gallery-cols img {
-      width: 100%;
-      margin-bottom: 0.5rem;
-      border-radius: 4px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-      cursor: zoom-in;
-      /* 已移除 transform + transition */
-    }
-  </style>
-
-  {{ with .Params.remote_photos }}
-    <div class="remote-gallery-cols">
-      {{ range . }}
-        <a 
-          href="{{ . }}" 
-          data-pswp-src="{{ . }}" 
-          data-pswp-gallery="remote"
-        >
-          <img src="{{ . }}" alt="Remote photo" />
-        </a>
-      {{ end }}
-    </div>
   {{ end }}
 
 {{ end }}
