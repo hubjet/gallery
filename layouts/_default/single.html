@@ -14,26 +14,22 @@
   {{ end }}
 
   <style>
-    .remote-gallery-fixed {
-      text-align: center;
+    .remote-gallery-cols {
+      column-count: 2;
+      column-gap: 0.5rem;
     }
-    .remote-gallery-fixed img {
-      width: 200px;
-      height: auto;
-      object-fit: cover;
+    .remote-gallery-cols img {
+      width: 100%;
+      margin-bottom: 0.5rem;
       border-radius: 4px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-      margin: 0.25rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
       cursor: zoom-in;
-      transition: transform 0.3s ease;
-    }
-    .remote-gallery-fixed img:hover {
-      transform: scale(1.05);
+      /* 已移除 transform + transition */
     }
   </style>
 
   {{ with .Params.remote_photos }}
-    <div class="remote-gallery-fixed">
+    <div class="remote-gallery-cols">
       {{ range . }}
         <a 
           href="{{ . }}" 
