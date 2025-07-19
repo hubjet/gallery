@@ -1,6 +1,7 @@
 ---
 title: People
 date: 2025-07-18
+
 resources:
   - src: IMG_4947.jpg
   - src: IMG_4946.jpg
@@ -8,4 +9,6 @@ resources:
     params:
       cover: true
 
+remote_photos:
+  - "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_E5364.JPG"
 ---
