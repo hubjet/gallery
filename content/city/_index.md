@@ -2,7 +2,7 @@
 title: City
 
 resources:
-  - src: IMG_5411.JPG
+  - src: IMG_5759.jpeg
     params:
       cover: true
 remote_photos:
