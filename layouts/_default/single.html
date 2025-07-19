@@ -14,17 +14,27 @@
   {{ end }}
 
   <style>
+    /* 外链图片两栏布局 */
     .remote-gallery-cols {
       column-count: 2;
       column-gap: 0.5rem;
     }
+
+    /* 图片样式 */
     .remote-gallery-cols img {
       width: 100%;
       margin-bottom: 0.5rem;
       border-radius: 4px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
       cursor: zoom-in;
-      /* 已移除 transform + transition */
+      /* 已去除 transform + transition 悬停放大效果 */
+    }
+
+    /* 小屏响应式调整图片布局为单列 */
+    @media (max-width: 768px) {
+      .remote-gallery-cols {
+        column-count: 1; /* 手机端改为单列布局 */
+      }
     }
   </style>
 
@@ -35,6 +45,8 @@
           href="{{ . }}" 
           data-pswp-src="{{ . }}" 
           data-pswp-gallery="remote"
+          data-pswp-width="1600"
+          data-pswp-height="1066"
         >
           <img src="{{ . }}" alt="Remote photo" />
         </a>
