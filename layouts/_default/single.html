@@ -41,7 +41,7 @@
     <div class="remote-gallery-cols">
       {{ range . }}
         {{ $full := . }}
-        {{ $thumb := $full | replace ".jpeg" "_thumb.jpeg" | replace ".jpg" "_thumb.jpg" | replace ".JPG" "_thumb.jpg" | replace ".JPEG" "_thumb.jpeg" }}
+{{ $thumb := $full | replaceRE "\\.(jpe?g|JPE?G)$" "_thumb.jpg" }}
         <a 
           href="{{ $full }}" 
           data-pswp-src="{{ $full }}" 
