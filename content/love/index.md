@@ -1,5 +1,5 @@
 ---
-title: Nature
+title: Moments
 
 resources:
   - src: photolove.jpg
