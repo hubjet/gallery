@@ -1,46 +1,36 @@
-{{ define "main" }}
+{{ with .Params.remote_photos }}
+  <style>
+    .remote-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .remote-gallery a {
+      flex: 1 1 calc(50% - 0.5rem);
+      display: block;
+    }
+    .remote-gallery img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 4px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      cursor: default;
+    }
+  </style>
 
-  {{ if not .Params.hideTitle }}
-    {{ partial "title.html" . }}
-  {{ end }}
-
-  {{ with .Params.remote_photos }}
-    <style>
-      .remote-gallery-cols {
-        column-count: 2;
-        column-gap: 0.5rem;
-      }
-      .remote-gallery-cols img {
-        width: 100%;
-        margin-bottom: 0.5rem;
-        border-radius: 4px;
-        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-        cursor: zoom-in;
-      }
-    </style>
-
-    <div class="remote-gallery-cols">
-      {{ range $i, $url := . }}
-        <a 
-          href="{{ $url }}"
-          data-pswp-src="{{ $url }}"
-          data-pswp-gallery="remote"
-          data-pswp-width="1600"
-          data-pswp-height="1066"
-        >
-          <img src="{{ $url }}" alt="Remote Photo {{ $i }}" />
-        </a>
-      {{ end }}
-    </div>
-  {{ end }}
-
-  {{ partial "gallery.html" . }}
-  {{ partial "related.html" . }}
-
-  {{ with .Content }}
-    <section class="prose">
-      {{ . }}
-    </section>
-  {{ end }}
-
+  <div class="remote-gallery pswp-gallery" id="remote-gallery">
+    {{ range $i, $url := . }}
+      <a 
+        href="{{ $url }}"
+        data-pswp-src="{{ $url }}"
+        data-pswp-gallery="remote-gallery"
+        data-pswp-width="1600"
+        data-pswp-height="1066"
+        target="_blank"
+      >
+        <img src="{{ $url }}" alt="Remote Photo {{ $i }}" />
+      </a>
+    {{ end }}
+  </div>
 {{ end }}
