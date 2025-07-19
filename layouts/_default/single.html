@@ -27,13 +27,12 @@
       border-radius: 4px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
       cursor: zoom-in;
-      /* 已去除 transform + transition 悬停放大效果 */
     }
 
     /* 小屏响应式调整图片布局为单列 */
     @media (max-width: 768px) {
       .remote-gallery-cols {
-        column-count: 1; /* 手机端改为单列布局 */
+        column-count: 1;
       }
     }
   </style>
@@ -41,6 +40,7 @@
   {{ with .Params.remote_photos }}
     <div class="remote-gallery-cols">
       {{ range . }}
+        {{ $thumb := . | replace ".jpeg" "_thumb.jpeg" | replace ".jpg" "_thumb.jpg" | replace ".JPG" "_thumb.JPG" }}
         <a 
           href="{{ . }}" 
           data-pswp-src="{{ . }}" 
@@ -48,7 +48,7 @@
           data-pswp-width="1600"
           data-pswp-height="1066"
         >
-          <img src="{{ . }}" alt="Remote photo" />
+          <img src="{{ $thumb }}" alt="Remote photo" loading="lazy" />
         </a>
       {{ end }}
     </div>
