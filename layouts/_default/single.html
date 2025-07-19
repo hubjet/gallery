@@ -13,12 +13,35 @@
     </section>
   {{ end }}
 
+  <style>
+    .remote-gallery {
+      padding: 2rem 0;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    .remote-gallery img {
+      max-width: 90%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      cursor: zoom-in;
+      transition: transform 0.3s ease;
+    }
+    .remote-gallery img:active {
+      transform: scale(2);
+      z-index: 10;
+    }
+  </style>
+
   {{ with .Params.remote_photos }}
-    {{ range . }}
-      <p style="text-align:center;">
-        <img src="{{ . }}" style="max-width: 100%; height: auto; margin-bottom: 1em;">
-      </p>
-    {{ end }}
+    <div class="remote-gallery">
+      {{ range . }}
+        <div style="text-align: center;">
+          <img src="{{ . }}" alt="">
+        </div>
+      {{ end }}
+    </div>
   {{ end }}
 
 {{ end }}
