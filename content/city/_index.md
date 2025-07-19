@@ -1,5 +1,5 @@
 ---
-title: city
+title: City
 
 resources:
   - src: IMG_02352.jpeg
