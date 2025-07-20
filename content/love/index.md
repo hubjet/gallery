@@ -15,4 +15,5 @@ remote_photos:
   - "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_1050.jpg"
   - "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_1016.jpg"
   - "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_1025.jpg"
+  - "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_8571.jpg"
 ---
