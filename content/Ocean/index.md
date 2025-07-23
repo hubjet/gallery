@@ -1,6 +1,6 @@
----
-title: Ocean
-resources:
+#---
+#title: Ocean
+#resources:
   - src: IMG_0618.jpeg
     params:
       cover: true
@@ -8,7 +8,7 @@ resources:
   - src: IMG_8582.jpg
   - src: IMG_8313.jpeg
   - 
-remote_photos:
+#remote_photos:
   - "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_19004 1.jpg"
   - "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_10558.jpg"
   - "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_19385.jpg"
@@ -21,4 +21,4 @@ remote_photos:
   - "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_19983.jpg"
   - "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_E20.jpg"
   - "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_16521.jpg"
----
+#---
