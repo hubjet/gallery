@@ -55,4 +55,9 @@ remote_photos:
   - "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_17139.jpg"
   - "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_18550.jpg"
   - "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_19371 1.jpg"
+  - "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_326389.jpg"
+  - "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_326430.jpg"
+  - "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_326510.jpg"
+  - "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_326550.jpg"
+  - https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_32112839.jpg"
 ---
