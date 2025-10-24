@@ -1,6 +1,5 @@
 ---
-title: "Ocean"
-draft: true
+title: "2025Journal"
 resources:
   - src: IMG_0618.jpeg
     params:
