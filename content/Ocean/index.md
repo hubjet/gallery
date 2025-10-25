@@ -6,6 +6,20 @@ resources:
       cover: true
 
 remote_photos:
+- "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_121212122678.jpg"
+- "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_121212122686.jpg"
+- "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_121212122716.jpg"
+- "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_121212122718.jpg"
+- "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_121212122734.jpg"
+- "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_121212122773.jpg"
+- "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_121212122783.jpg"
+- "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_121212122802 2.jpg"
+- "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_121212122808.jpg"
+- "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_121212122821.jpg"
+- "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_121212122832.jpg"
+- "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_121212122839.jpg"
+- "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_121212122854.jpg"
+- "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_121212122857.jpg"
 - "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_1221921.jpg"
 - "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_1221959.jpg"
 - "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_1221973.jpg"
