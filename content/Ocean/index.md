@@ -1,12 +1,9 @@
 ---
 title: "2025Journal"
 resources:
-  - src: IMG_0618.jpeg
+  - src: https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_1212121426.jpg
     params:
       cover: true
-  - src: IMG_0615.jpg
-  - src: IMG_8582.jpg
-  - src: IMG_8313.jpeg
 
 remote_photos:
 - "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_1221921.jpg"
@@ -36,4 +33,5 @@ remote_photos:
 - "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_1222657.jpg"
 - "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_1222658.jpg"
 - "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_1226156.jpg"
+- "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_1212121426.jpg"
 ---
