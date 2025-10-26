@@ -6,6 +6,11 @@ resources:
       cover: true
   - src: "IMG_1212121426.jpg"
 remote_photos:
+- "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_1212121212122862.jpg"
+- "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_1212121212122870.jpg"
+- "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_1212121212122895.jpg"
+- "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_1212121212122899.jpg"
+- "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_1212121212122909.jpg"
 - "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_121212122678.jpg"
 - "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_121212122686.jpg"
 - "https://pub-06fe3c30e1c345e48d830ccdbe5c51d7.r2.dev/IMG_121212122716.jpg"
