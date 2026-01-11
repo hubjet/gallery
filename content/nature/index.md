@@ -7,7 +7,6 @@ resources:
       cover: true
   - src: IMG_E3979.JPG
   - src: IMG_5420.JPG
-  - src: IMG_5429.JPG
   - src: IMG_5420.JPG
   - src: IMG_1897.JPG
   - src: IMG_4297.JPG
